@@ -4,15 +4,15 @@ var garden;
 
 function preload() {
     //load the images here
-    mouseImage1=loadAnimation("images/mouse1.png");
-    mouseImage2=loadAnimation("images/mouse2.png","images/mouse3.png")
-    mouseImage3=loadAnimation("images/mouse4.png");
+    mouseImage1=loadAnimation("mouse1.png");
+    mouseImage2=loadAnimation("mouse2.png","mouse3.png")
+    mouseImage3=loadAnimation("mouse4.png");
     
-    catImage1=loadAnimation("images/cat1.png")
-    catImage2=loadAnimation("images/cat2.png","images/cat3.png");
-    catImage3=loadAnimation("images/cat4.png");
+    catImage1=loadAnimation("cat1.png")
+    catImage2=loadAnimation("cat2.png","cat3.png");
+    catImage3=loadAnimation("cat4.png");
 
-    garden=loadImage("images/garden.png");
+    garden=loadImage("garden.png");
 }
 
 function setup(){
